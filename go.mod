@@ -1,31 +1,30 @@
-module github.com/qiniu/goc
+module github.com/qiniu/goc/v2
 
-go 1.13
+go 1.21
 
 require (
 	github.com/gin-gonic/gin v1.7.7
-	github.com/go-playground/validator/v10 v10.8.0 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-github v17.0.0+incompatible
-	github.com/hashicorp/go-retryablehttp v0.6.6
-	github.com/json-iterator/go v1.1.11 // indirect
-	github.com/julienschmidt/httprouter v1.2.0
+	github.com/go-resty/resty/v2 v2.6.0
+	github.com/gofrs/flock v0.8.1
+	github.com/gorilla/websocket v1.4.2
+	github.com/k0kubun/go-ansi v0.0.0-20180517002512-3bf9e2903213
+	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.13 // indirect
-	github.com/mattn/go-runewidth v0.0.9 // indirect
-	github.com/olekukonko/tablewriter v0.0.4
-	github.com/qiniu/api.v7/v7 v7.5.0
-	github.com/sirupsen/logrus v1.6.0
-	github.com/spf13/cobra v1.0.0
-	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.6.2
-	github.com/stretchr/testify v1.6.1
+	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
+	github.com/olekukonko/tablewriter v0.0.5
+	github.com/onsi/ginkgo v1.16.4
+	github.com/onsi/gomega v1.14.0
+	github.com/spf13/cobra v1.1.3
+	github.com/spf13/pflag v1.6.2
+	github.com/stretchr/testify v1.7.0
 	github.com/tongjingran/copy v1.4.2
-	github.com/ugorji/go v1.2.6 // indirect
-	golang.org/x/mod v0.11.0
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/tools v0.1.12
-	google.golang.org/protobuf v1.27.1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/test-infra v0.0.0-20200511080351-8ac9dbfab055
+	go.uber.org/zap v1.17.0
+	golang.org/x/mod v0.20.0
+	golang.org/x/term v0.12.0
+	golang.org/x/tools v0.13.0
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	k8s.io/kubectl v0.21.2
+	k8s.io/test-infra v0.0.0-20210618100605-34aa2f2aa75b
 )
+
+replace k8s.io/client-go => k8s.io/client-go v0.21.1
