@@ -1,9 +1,9 @@
 module github.com/qiniu/goc/v2
 
-go 1.16
+go 1.21
 
 require (
-	github.com/gin-gonic/gin v1.7.2
+	github.com/gin-gonic/gin v1.7.7
 	github.com/go-resty/resty/v2 v2.6.0
 	github.com/gofrs/flock v0.8.1
 	github.com/gorilla/websocket v1.4.2
@@ -19,7 +19,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/tongjingran/copy v1.4.2
 	go.uber.org/zap v1.17.0
-	golang.org/x/mod v0.18.0
+	golang.org/x/mod v0.20.0
 	golang.org/x/term v0.12.0
 	golang.org/x/tools v0.13.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
