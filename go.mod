@@ -23,8 +23,4 @@ require (
 	golang.org/x/term v0.12.0
 	golang.org/x/tools v0.13.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	k8s.io/kubectl v0.21.2
-	k8s.io/test-infra v0.0.0-20210618100605-34aa2f2aa75b
 )
-
-replace k8s.io/client-go => k8s.io/client-go v0.21.1
