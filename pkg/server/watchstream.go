@@ -25,7 +25,7 @@ import (
 
 func (gs *gocServer) serveWatchInternalStream(c *gin.Context) {
 	// 检查插桩服务上报的信息
-	watchRemoteIP, _ := c.RemoteIP()
+	watchRemoteIP := c.RemoteIP()
 	id := c.Query("id")
 	token := c.Query("token")
 
@@ -48,7 +48,7 @@ func (gs *gocServer) serveWatchInternalStream(c *gin.Context) {
 	}
 
 	// 更新 agent 信息
-	agent.WatchRemoteIP = watchRemoteIP.String()
+	agent.WatchRemoteIP = watchRemoteIP
 	agent.Status &= ^DISCONNECT  // 取消 DISCONNECT 的状态
 	agent.Status |= WATCHCONNECT // 设置为 RPC CONNECT 状态
 	var once sync.Once
