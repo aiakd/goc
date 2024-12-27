@@ -19,9 +19,9 @@ import (
 	"os/signal"
 
 	"github.com/gin-gonic/gin"
-	"github.com/qiniu/goc/v2/pkg/log"
-	"github.com/qiniu/goc/v2/pkg/server"
-	"github.com/qiniu/goc/v2/pkg/server/store"
+	"github.com/aiakd/goc/v2/pkg/log"
+	"github.com/aiakd/goc/v2/pkg/server"
+	"github.com/aiakd/goc/v2/pkg/server/store"
 )
 
 func NewRun(opts ...gocOption) *Build {

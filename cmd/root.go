@@ -14,7 +14,7 @@
 package cmd
 
 import (
-	"github.com/qiniu/goc/v2/pkg/log"
+	"github.com/aiakd/goc/v2/pkg/log"
 	"github.com/spf13/cobra"
 )
 
@@ -24,7 +24,7 @@ var rootCmd = &cobra.Command{
 	Long: `goc is a comprehensive coverage testing tool for go language.
 
 Find more information at:
- https://github.com/qiniu/goc
+ https://github.com/aiakd/goc
 `,
 	PersistentPreRun: func(cmd *cobra.Command, args []string) {
 		log.DisplayGoc()

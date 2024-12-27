@@ -14,7 +14,7 @@
 package cmd
 
 import (
-	cli "github.com/qiniu/goc/v2/pkg/watch"
+	cli "github.com/aiakd/goc/v2/pkg/watch"
 	"github.com/spf13/cobra"
 )
 

@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/qiniu/goc/v2/pkg/log"
+	"github.com/aiakd/goc/v2/pkg/log"
 )
 
 //go:embed websocket.tar

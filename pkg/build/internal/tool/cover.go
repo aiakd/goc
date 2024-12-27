@@ -18,7 +18,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/qiniu/goc/v2/pkg/log" // QINIU
+	"github.com/aiakd/goc/v2/pkg/log" // QINIU
 	// "cmd/internal/edit"
 	// "cmd/internal/objabi"
 )

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/qiniu/goc/v2/pkg/log"
+	"github.com/aiakd/goc/v2/pkg/log"
 	"golang.org/x/tools/cover"
 	"k8s.io/test-infra/gopherage/pkg/cov"
 )
